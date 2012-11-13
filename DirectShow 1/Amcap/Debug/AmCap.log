@@ -1,0 +1,45 @@
+﻿Build started 11/13/2012 9:04:56 PM.
+     1>Project "K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\Amcap\AmCap.vcxproj" on node 3 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\AmCap.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Common /I..\..\BaseClasses /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt amcap.cpp crossbar.cpp SampleCGB.cpp status.cpp stdafx.cpp
+         stdafx.cpp
+         status.cpp
+         SampleCGB.cpp
+         crossbar.cpp
+         amcap.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\amcap.res" amcap.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\AmCap.exe.embed.manifest.res" Debug\AmCap_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\AmCap.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\BaseClasses\Debug\ Strmbasd.lib winmm.lib Msacm32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AmCap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\Amcap\Debug\AmCap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\AmCap.lib" /MACHINE:X86 Debug\amcap.res
+         Debug\AmCap.exe.embed.manifest.res
+         Debug\amcap.obj
+         Debug\crossbar.obj
+         Debug\SampleCGB.obj
+         Debug\status.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\AmCap.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\AmCap.exe.embed.manifest" /manifest Debug\AmCap.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\AmCap.exe.embed.manifest.res" Debug\AmCap_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\AmCap.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\BaseClasses\Debug\ Strmbasd.lib winmm.lib Msacm32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\AmCap.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\Amcap\Debug\AmCap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\AmCap.lib" /MACHINE:X86 Debug\amcap.res
+         Debug\AmCap.exe.embed.manifest.res
+         Debug\amcap.obj
+         Debug\crossbar.obj
+         Debug\SampleCGB.obj
+         Debug\status.obj
+         Debug\stdafx.obj
+         AmCap.vcxproj -> K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\Amcap\Debug\AmCap.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\AmCap.unsuccessfulbuild".
+         Touching "Debug\AmCap.lastbuildstate".
+     1>Done Building Project "K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\Amcap\AmCap.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.69

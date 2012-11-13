@@ -1,0 +1,83 @@
+﻿Build started 11/13/2012 9:04:26 PM.
+     1>Project "K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\BaseClasses\baseclasses.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\baseclasses.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt amextra.cpp amfilter.cpp amvideo.cpp arithutil.cpp combase.cpp cprop.cpp ctlutil.cpp ddmm.cpp dllentry.cpp dllsetup.cpp mtype.cpp outputq.cpp perflog.cpp pstream.cpp pullpin.cpp refclock.cpp renbase.cpp schedule.cpp seekpt.cpp source.cpp strmctl.cpp sysclock.cpp transfrm.cpp transip.cpp videoctl.cpp vtrans.cpp winctrl.cpp winutil.cpp wxdebug.cpp wxlist.cpp wxutil.cpp
+         wxutil.cpp
+         wxlist.cpp
+         wxdebug.cpp
+         winutil.cpp
+         winctrl.cpp
+         vtrans.cpp
+         videoctl.cpp
+         transip.cpp
+         transfrm.cpp
+         sysclock.cpp
+         strmctl.cpp
+         source.cpp
+         seekpt.cpp
+         schedule.cpp
+         renbase.cpp
+         refclock.cpp
+         pullpin.cpp
+         pstream.cpp
+         perflog.cpp
+         outputq.cpp
+         Generating Code...
+         Compiling...
+         mtype.cpp
+         dllsetup.cpp
+         dllentry.cpp
+         ddmm.cpp
+         ctlutil.cpp
+         cprop.cpp
+         combase.cpp
+         arithutil.cpp
+         amvideo.cpp
+         amfilter.cpp
+         amextra.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\BaseClasses\Debug\baseclasses.lib) does not match the Library's OutputFile property value (K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\BaseClasses\Debug\strmbasd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(baseclasses) does not match the Library's OutputFile property value (strmbasd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Debug\strmbasd.lib" strmiids.lib /NOLOGO Debug\amextra.obj
+         Debug\amfilter.obj
+         Debug\amvideo.obj
+         Debug\arithutil.obj
+         Debug\combase.obj
+         Debug\cprop.obj
+         Debug\ctlutil.obj
+         Debug\ddmm.obj
+         Debug\dllentry.obj
+         Debug\dllsetup.obj
+         Debug\mtype.obj
+         Debug\outputq.obj
+         Debug\perflog.obj
+         Debug\pstream.obj
+         Debug\pullpin.obj
+         Debug\refclock.obj
+         Debug\renbase.obj
+         Debug\schedule.obj
+         Debug\seekpt.obj
+         Debug\source.obj
+         Debug\strmctl.obj
+         Debug\sysclock.obj
+         Debug\transfrm.obj
+         Debug\transip.obj
+         Debug\videoctl.obj
+         Debug\vtrans.obj
+         Debug\winctrl.obj
+         Debug\winutil.obj
+         Debug\wxdebug.obj
+         Debug\wxlist.obj
+         Debug\wxutil.obj
+         baseclasses.vcxproj -> K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\BaseClasses\Debug\baseclasses.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\baseclasses.unsuccessfulbuild".
+         Touching "Debug\baseclasses.lastbuildstate".
+     1>Done Building Project "K:\Documents\Documents\Robotics\HC6800 kit\My own projects\Projects\trunk\DirectShow 1\BaseClasses\baseclasses.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.13
