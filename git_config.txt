@@ -1,0 +1,3 @@
+Git repository: https://github.com/anhdung88/projects.git
+u: anhdung88
+p: @123abc
